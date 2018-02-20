@@ -22,6 +22,6 @@ userController.post = (req, res) => {
       message: err,
     });
   });
-}
+};
 
 export default userController;
